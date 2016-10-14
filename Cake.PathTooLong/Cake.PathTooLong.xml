@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cake.PathTooLong</name>
+    </assembly>
+    <members>
+        <member name="T:Cake.PathTooLong.PathToLongAliases">
+            <summary>
+            Helpers to deal with PathToLong error in Win32
+            </summary>
+        </member>
+        <member name="M:Cake.PathTooLong.PathToLongAliases.FindFilesRecursive(Cake.Core.ICakeContext,System.Func{Cake.Core.IO.IFileSystemInfo,System.Boolean},System.Func{Cake.Core.IO.IDirectory,System.Boolean})">
+            <summary>
+            Recursivly walks through the directory looking for the files.
+            </summary>
+            <param name="ctx">Cake context</param>
+            <param name="includeFilter">What files/directories should be included in result.</param>
+            <param name="scanDirFilter">What directories should be scanned.</param>
+        </member>
+    </members>
+</doc>
